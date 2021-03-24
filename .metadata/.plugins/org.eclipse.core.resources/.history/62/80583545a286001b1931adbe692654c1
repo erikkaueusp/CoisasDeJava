@@ -1,0 +1,15 @@
+
+public class AppBank {
+
+	public static void main(String[] args) {
+		Cliente p1 = new Cliente();
+		
+		p1.setIdade(20);
+		p1.setNome("Erik");
+		p1.setSexo('m');
+		System.out.printf("Nome: %s idade: %d sexo: %s",p1.getNome(),p1.getIdade(),p1.getSexo());
+		
+
+	}
+
+}

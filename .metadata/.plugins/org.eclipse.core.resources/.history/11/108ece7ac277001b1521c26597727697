@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Inputs {
+
+	public static void main(String[] args) {
+		
+		String x;
+		Scanner variavel = new Scanner(System.in);
+		
+		x = variavel.next();
+		
+		variavel.close();
+
+	}
+
+}

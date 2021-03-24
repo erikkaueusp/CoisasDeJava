@@ -1,0 +1,5 @@
+package catraca;
+
+public abstract class Pessoa {
+
+}

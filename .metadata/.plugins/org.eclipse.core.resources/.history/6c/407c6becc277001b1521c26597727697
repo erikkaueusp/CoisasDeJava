@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Inputs {
+
+	public static void main(String[] args) {
+		
+		String x;
+		int y;
+		
+		Scanner variavel = new Scanner(System.in);
+		
+		x = variavel.next();
+		y = varivavel.nextInt();
+		System.out.println("Você digitou o valor:" + x + y);
+		
+		variavel.close();
+
+	}
+
+}
